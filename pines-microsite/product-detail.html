@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>产品详情 - 安徽派恩斯金属制品有限公司</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- 顶部导航 -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="logo">
+                <h1>PINS</h1>
+                <span class="logo-text">派恩斯金属</span>
+            </div>
+            <nav class="nav-desktop">
+                <a href="index.html" class="nav-link">首页</a>
+                <a href="about.html" class="nav-link">关于我们</a>
+                <a href="products.html" class="nav-link">产品中心</a>
+                <a href="honors.html" class="nav-link">荣誉资质</a>
+                <a href="advantages.html" class="nav-link">核心优势</a>
+                <a href="cases.html" class="nav-link">应用案例</a>
+                <a href="news.html" class="nav-link">新闻资讯</a>
+                <a href="contact.html" class="nav-link">联系我们</a>
+            </nav>
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- 移动端侧边菜单 -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-header">
+            <h2>PINS 派恩斯</h2>
+            <button class="close-menu" id="closeMenu">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <nav class="mobile-nav">
+            <a href="index.html" class="mobile-nav-link">首页</a>
+            <a href="about.html" class="mobile-nav-link">关于我们</a>
+            <a href="products.html" class="mobile-nav-link">产品中心</a>
+            <a href="honors.html" class="mobile-nav-link">荣誉资质</a>
+            <a href="advantages.html" class="mobile-nav-link">核心优势</a>
+            <a href="cases.html" class="mobile-nav-link">应用案例</a>
+            <a href="news.html" class="mobile-nav-link">新闻资讯</a>
+            <a href="contact.html" class="mobile-nav-link">联系我们</a>
+        </nav>
+    </div>
+    <div class="menu-overlay" id="menuOverlay"></div>
+
+    <!-- 主内容区 -->
+    <main class="main-content" style="margin-top: 70px;">
+        <!-- 面包屑导航 -->
+        <div class="breadcrumb">
+            <div class="container">
+                <a href="index.html">首页</a> > 
+                <a href="products.html">产品中心</a> > 
+                <span>产品详情</span>
+            </div>
+        </div>
+
+        <!-- 产品详情 -->
+        <section class="section">
+            <div class="container">
+                <div class="product-detail">
+                    <div class="product-gallery">
+                        <div class="main-image">
+                            <img src="images/product_elastic_pins.jpg" alt="弹性销" id="mainImage">
+                        </div>
+                        <div class="thumbnail-images">
+                            <img src="images/product_elastic_pins.jpg" alt="弹性销" onclick="changeImage(this)">
+                            <img src="images/product_solid_pins.jpg" alt="弹性销侧面" onclick="changeImage(this)">
+                            <img src="images/product_conical_washers.jpg" alt="弹性销应用" onclick="changeImage(this)">
+                        </div>
+                    </div>
+                    
+                    <div class="product-info-detail">
+                        <h1>弹性销系列</h1>
+                        <p class="product-tagline">采用优质弹簧钢材料，具有良好的弹性和耐磨性</p>
+                        
+                        <div class="product-meta">
+                            <div class="meta-item">
+                                <span class="meta-label">材质：</span>
+                                <span>65Mn、60Si2MnA、50CrVA</span>
+                            </div>
+                            <div class="meta-item">
+                                <span class="meta-label">表面处理：</span>
+                                <span>磷化、发黑、镀锌、达克罗</span>
+                            </div>
+                            <div class="meta-item">
+                                <span class="meta-label">执行标准：</span>
+                                <span>GB/T 879、ISO 8752、DIN 1481</span>
+                            </div>
+                            <div class="meta-item">
+                                <span class="meta-label">应用领域：</span>
+                                <span>汽车、机械、电子、工程机械</span>
+                            </div>
+                        </div>
+                        
+                        <div class="product-description">
+                            <h3>产品描述</h3>
+                            <p>弹性销是一种无头中空的圆柱形销子，在直径方向上被压出的槽口使销子直径略大于孔径。安装时，弹性销被压缩塞入预先钻好的孔中，利用自身的弹性固定在孔中，提供可靠的紧固力。</p>
+                            <p>我司生产的弹性销采用优质弹簧钢材料，经过精密冲压、热处理、表面处理等工艺，确保产品具有优良的弹性、耐磨性和耐腐蚀性。</p>
+                        </div>
+                        
+                        <div class="product-actions">
+                            <a href="contact.html" class="btn-inquiry">立即咨询</a>
+                            <a href="#" class="btn-download"><i class="fas fa-download"></i> 下载规格书</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 技术参数 -->
+                <div class="product-specs-detail">
+                    <h2>技术参数</h2>
+                    <table class="specs-table">
+                        <tr>
+                            <th>规格</th>
+                            <th>直径 (mm)</th>
+                            <th>长度 (mm)</th>
+                            <th>材质</th>
+                            <th>表面处理</th>
+                        </tr>
+                        <tr>
+                            <td>GB/T 879.1</td>
+                            <td>1-3</td>
+                            <td>4-30</td>
+                            <td>65Mn</td>
+                            <td>磷化</td>
+                        </tr>
+                        <tr>
+                            <td>GB/T 879.2</td>
+                            <td>3-6</td>
+                            <td>8-60</td>
+                            <td>60Si2MnA</td>
+                            <td>发黑</td>
+                        </tr>
+                        <tr>
+                            <td>GB/T 879.3</td>
+                            <td>6-12</td>
+                            <td>16-100</td>
+                            <td>50CrVA</td>
+                            <td>镀锌</td>
+                        </tr>
+                        <tr>
+                            <td>GB/T 879.4</td>
+                            <td>12-20</td>
+                            <td>30-200</td>
+                            <td>65Mn</td>
+                            <td>达克罗</td>
+                        </tr>
+                    </table>
+                </div>
+                
+                <!-- 相关产品 -->
+                <div class="related-products">
+                    <h2>相关产品</h2>
+                    <div class="products-grid">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="images/product_solid_pins.jpg" alt="实心销系列" style="width:100%;height:100%;object-fit:cover;">
+                            </div>
+                            <div class="product-info">
+                                <h4>实心销系列</h4>
+                                <p class="product-desc">高强度实心销，适用于高负荷连接场合</p>
+                                <a href="product-detail.html" class="btn-view">查看详情</a>
+                            </div>
+                        </div>
+                        
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="images/product_conical_washers.jpg" alt="锥形垫圈" style="width:100%;height:100%;object-fit:cover;">
+                            </div>
+                            <div class="product-info">
+                                <h4>锥形垫圈</h4>
+                                <p class="product-desc">锥形设计，提供更好的锁紧效果和防松性能</p>
+                                <a href="product-detail.html" class="btn-view">查看详情</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 底部固定导航（移动端） -->
+    <nav class="bottom-nav" id="bottomNav">
+        <a href="index.html" class="bottom-nav-item">
+            <i class="fas fa-home"></i>
+            <span>首页</span>
+        </a>
+        <a href="about.html" class="bottom-nav-item">
+            <i class="fas fa-info-circle"></i>
+            <span>关于</span>
+        </a>
+        <a href="products.html" class="bottom-nav-item active">
+            <i class="fas fa-box-open"></i>
+            <span>产品</span>
+        </a>
+        <a href="cases.html" class="bottom-nav-item">
+            <i class="fas fa-briefcase"></i>
+            <span>案例</span>
+        </a>
+        <a href="contact.html" class="bottom-nav-item">
+            <i class="fas fa-phone"></i>
+            <span>联系</span>
+        </a>
+    </nav>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>PINS</h3>
+                    <p>安徽派恩斯金属制品有限公司</p>
+                </div>
+                <div class="footer-links">
+                    <h4>快速链接</h4>
+                    <a href="index.html">首页</a>
+                    <a href="about.html">关于我们</a>
+                    <a href="products.html">产品中心</a>
+                    <a href="honors.html">荣誉资质</a>
+                    <a href="cases.html">应用案例</a>
+                </div>
+                <div class="footer-contact">
+                    <h4>联系方式</h4>
+                    <p><i class="fas fa-globe"></i> www.chinapins.cn</p>
+                    <p><i class="fas fa-phone"></i> 0550-XXXXXXX</p>
+                    <p><i class="fas fa-envelope"></i> info@chinapins.cn</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2019-2026 安徽派恩斯金属制品有限公司 版权所有</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 回到顶部按钮 -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+        <script src="js/data-loader.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        function changeImage(element) {
+            document.getElementById('mainImage').src = element.src;
+        }
+    </script>
+</body>
+</html>

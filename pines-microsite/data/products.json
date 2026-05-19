@@ -1,0 +1,91 @@
+[
+  {
+    "id": "elastic-pins",
+    "name": "弹性销系列",
+    "image": "images/product_elastic_pins.jpg",
+    "old_images": [
+      "https://omo-oss-image.thefastimg.com/portal-saas/pg2025121511000663606/cms/image/f9b7a6ba-afa9-48c3-8d95-bc3d118d54f0.jpg",
+      "https://omo-oss-image.thefastimg.com/portal-saas/pg2025121511000663606/cms/image/e152aff3-f59f-4cc3-aee2-0905a0e7bf77.jpg",
+      "https://omo-oss-image.thefastimg.com/portal-saas/pg2025121511000663606/cms/image/c5af5f07-e2e7-4fe0-823b-f181660ff243.jpg",
+      "https://omo-oss-image.thefastimg.com/portal-saas/pg2025121511000663606/cms/image/c7d03caa-f161-4fa1-83aa-7449d9bd4bc6.jpg"
+    ],
+    "desc": "采用优质弹簧钢65Mn、60Si2MnA、50CrVA材料，具有良好弹性和耐磨性。产品涵盖直槽弹性销、卷制弹性销、卷制弹性圆柱销等多种规格，执行GB/T 879、ISO 8752、DIN 1481标准。",
+    "link": "product-detail.html",
+    "subtypes": ["直槽弹性销", "卷制弹性销", "卷制弹性圆柱销"],
+    "specs": {
+      "材质": "65Mn、60Si2MnA、50CrVA",
+      "表面处理": "磷化、发黑、镀锌、达克罗",
+      "执行标准": "GB/T 879、ISO 8752、DIN 1481"
+    }
+  },
+  {
+    "id": "solid-pins",
+    "name": "实心销系列",
+    "image": "images/product_solid_pins.jpg",
+    "old_images": [
+      "https://omo-oss-image.thefastimg.com/portal-saas/pg2025121511000663606/cms/image/4fcbc8d6-a022-4e2b-99f9-2b105eb8a5f2.jpg",
+      "https://omo-oss-image.thefastimg.com/portal-saas/pg2025121511000663606/cms/image/393e439f-ebc8-4d01-b996-8365ecf65b71.jpg"
+    ],
+    "desc": "高强度实心销，采用45#钢、40Cr、35CrMo材料制造，适用于高负荷连接场合。表面处理可选镀锌、镀镍、氧化、磷化，执行GB/T 880、ISO 8734、DIN 6325标准。",
+    "link": "product-detail.html",
+    "subtypes": ["圆柱销", "内螺纹圆柱销", "弹性圆柱销"],
+    "specs": {
+      "材质": "45#钢、40Cr、35CrMo",
+      "表面处理": "镀锌、镀镍、氧化、磷化",
+      "执行标准": "GB/T 880、ISO 8734、DIN 6325"
+    }
+  },
+  {
+    "id": "conical-washers",
+    "name": "锥形垫圈",
+    "image": "images/product_conical_washers.jpg",
+    "old_images": [
+      "https://omo-oss-image.thefastimg.com/portal-saas/pg2025121511000663606/cms/image/a7958992-67dc-45f2-ba5d-65eb33192289.jpg",
+      "https://omo-oss-image.thefastimg.com/portal-saas/pg2025121511000663606/cms/image/b5b8bef4-0564-4467-af02-7e830e09070c.jpg",
+      "https://omo-oss-image.thefastimg.com/portal-saas/pg2025121511000663606/cms/image/bb273042-f62b-4fbc-a980-6fdb4105c3d4.jpg",
+      "https://omo-oss-image.thefastimg.com/portal-saas/pg2025121511000663606/cms/image/63e9b4d6-122a-4e64-baeb-a911513e894d.jpg"
+    ],
+    "desc": "锥形弹性垫圈设计，提供优异的锁紧效果和防松性能。产品系列包括DIN6796锥形弹性垫圈、SN70093接地垫圈、NF E 25-511法式锁紧垫圈，材质65Mn或不锈钢304/316。",
+    "link": "product-detail.html",
+    "subtypes": ["DIN6796锥形弹性垫圈", "SN70093接地垫圈", "NF E 25-511法式锁紧垫圈"],
+    "specs": {
+      "材质": "65Mn、Stainless Steel 304/316",
+      "表面处理": "本色、磷化、镀锌",
+      "执行标准": "DIN 6796、GB/T 861.1"
+    }
+  },
+  {
+    "id": "nonstandard",
+    "name": "非标冲压件",
+    "image": "images/product_nonstandard.jpg",
+    "old_images": [
+      "https://omo-oss-image.thefastimg.com/portal-saas/pg2025121511000663606/cms/image/ffdb7fa1-1a0a-4eab-a80e-678db959ff10.jpg",
+      "https://omo-oss-image.thefastimg.com/portal-saas/pg2025121511000663606/cms/image/5869f897-f0de-4c2a-90d9-346021ceec2b.jpg"
+    ],
+    "desc": "根据客户需求定制非标冲压件，材质涵盖碳钢、不锈钢、铜、铝等。加工工艺包括冲压、拉伸、弯曲、成型，广泛应用于汽车、电子、机械、家电等行业。提供一站式定制解决方案。",
+    "link": "product-detail.html",
+    "subtypes": ["非标衬套", "定位衬套", "定制冲压件"],
+    "specs": {
+      "材质": "碳钢、不锈钢、铜、铝",
+      "加工工艺": "冲压、拉伸、弯曲、成型",
+      "应用领域": "汽车、电子、机械、家电"
+    }
+  },
+  {
+    "id": "reed-nuts",
+    "name": "簧片螺母",
+    "image": "images/product_nonstandard.jpg",
+    "old_images": [
+      "https://omo-oss-image.thefastimg.com/portal-saas/pg2025121511000663606/cms/image/8a72be11-afed-4c1f-9028-d03a533f8dc3.png",
+      "https://omo-oss-image.thefastimg.com/portal-saas/pg2025121511000663606/cms/image/cf6d9d8a-e77e-4093-80ac-47ce25712844.jpg"
+    ],
+    "desc": "弹性簧片螺母设计，提供快速可靠的螺纹连接方案。采用弹簧钢或不锈钢材质，自锁防松，安装便捷，可重复使用。表面处理可选磷化、镀锌、达克罗。",
+    "link": "product-detail.html",
+    "subtypes": ["标准簧片螺母", "定制簧片螺母"],
+    "specs": {
+      "材质": "弹簧钢、不锈钢",
+      "表面处理": "磷化、镀锌、达克罗",
+      "特点": "自锁防松、快速安装、可重复使用"
+    }
+  }
+]
